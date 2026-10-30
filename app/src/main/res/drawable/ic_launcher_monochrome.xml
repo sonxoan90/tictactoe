@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lớp đơn sắc cho icon theo chủ đề (Android 13+) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- lưới -->
+    <path
+        android:pathData="M46.67,32 L46.67,76 M61.33,32 L61.33,76 M32,46.67 L76,46.67 M32,61.33 L76,61.33"
+        android:strokeWidth="2.4"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeAlpha="0.4"
+        android:strokeLineCap="round" />
+    <!-- vạch thắng -->
+    <path
+        android:pathData="M33,54 L75,54"
+        android:strokeWidth="4.2"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round" />
+    <!-- quân O -->
+    <path
+        android:pathData="M39.33,39.33 m-4.4,0 a4.4,4.4 0 1,0 8.8,0 a4.4,4.4 0 1,0 -8.8,0 M68.67,68.67 m-4.4,0 a4.4,4.4 0 1,0 8.8,0 a4.4,4.4 0 1,0 -8.8,0"
+        android:strokeWidth="3.4"
+        android:strokeColor="#FFFFFFFF" />
+    <!-- ba quân X thẳng hàng -->
+    <path
+        android:pathData="M35.03,49.7 L43.63,58.3 M43.63,49.7 L35.03,58.3 M49.7,49.7 L58.3,58.3 M58.3,49.7 L49.7,58.3 M64.37,49.7 L72.97,58.3 M72.97,49.7 L64.37,58.3"
+        android:strokeWidth="3.6"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round" />
+</vector>

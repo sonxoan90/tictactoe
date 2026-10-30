@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="140dp"
+    android:viewportWidth="200"
+    android:viewportHeight="140">
+    <!-- hai đám mây mờ phía sau -->
+    <path
+        android:fillAlpha="0.6"
+        android:fillColor="?attr/colorPrimaryContainer"
+        android:pathData="M60,100 m-45,0 a45,22 0 1,0 90,0 a45,22 0 1,0 -90,0" />
+    <path
+        android:fillAlpha="0.6"
+        android:fillColor="?attr/colorPrimaryContainer"
+        android:pathData="M150,98 m-35,0 a35,20 0 1,0 70,0 a35,20 0 1,0 -70,0" />
+
+    <!-- bàn cờ nghiêng -->
+    <group
+        android:pivotX="100"
+        android:pivotY="70"
+        android:rotation="-8">
+        <path
+            android:fillColor="?attr/colorSurface"
+            android:pathData="M70,20 L130,20 Q140,20 140,30 L140,110 Q140,120 130,120 L70,120 Q60,120 60,110 L60,30 Q60,20 70,20 Z"
+            android:strokeWidth="3"
+            android:strokeColor="?attr/colorPrimaryContainer" />
+        <path
+            android:pathData="M87,30 L87,110 M113,30 L113,110 M70,53 L130,53 M70,87 L130,87"
+            android:strokeAlpha="0.5"
+            android:strokeColor="?attr/colorPrimary"
+            android:strokeLineCap="round"
+            android:strokeWidth="2.5" />
+        <!-- X -->
+        <path
+            android:pathData="M67,30 L79,42 M79,30 L67,42 M94,98 L106,110 M106,98 L94,110 M121,98 L133,110 M133,98 L121,110"
+            android:strokeColor="?attr/colorPrimary"
+            android:strokeLineCap="round"
+            android:strokeWidth="3.5" />
+        <!-- O -->
+        <path
+            android:pathData="M127,36 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M73,70 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M127,70 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+            android:strokeColor="?attr/colorTertiary"
+            android:strokeWidth="3.5" />
+    </group>
+
+    <!-- tia sáng -->
+    <path
+        android:pathData="M158,30 L166,24 M162,46 L174,46 M42,62 L32,58 M40,44 L40,36"
+        android:strokeAlpha="0.7"
+        android:strokeColor="?attr/colorPrimary"
+        android:strokeLineCap="round"
+        android:strokeWidth="2.5" />
+</vector>

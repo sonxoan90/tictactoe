@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Cờ Caro BK</string>
+    <string name="menu_subtitle">Tư duy chiến thuật · Phiên bản BK</string>
+    <string name="menu_headline">Sẵn sàng đấu chưa?</string>
+
+    <string name="mode_easy">Đấu máy dễ</string>
+    <string name="mode_hard">Đấu máy khó</string>
+    <string name="mode_two_players">Hai người chơi</string>
+    <string name="mode_easy_sub">Khởi động nhẹ nhàng</string>
+    <string name="mode_hard_sub">Thử thách chiến thuật</string>
+    <string name="mode_two_sub">So tài cùng bạn bè</string>
+    <string name="mode_easy_short">Máy dễ</string>
+    <string name="mode_hard_short">Máy khó</string>
+
+    <string name="stats_title">Thành tích của bạn</string>
+    <string name="reset_stats">Xóa thành tích</string>
+    <string name="reset_confirm">Xóa toàn bộ thành tích đấu với máy?</string>
+    <string name="yes">Xóa</string>
+    <string name="no">Hủy</string>
+    <string name="label_win">Thắng</string>
+    <string name="label_loss">Thua</string>
+
+    <string name="label_you">Bạn</string>
+    <string name="label_cpu">Máy</string>
+    <string name="label_draw">Hòa</string>
+    <string name="status_turn">Lượt của %1$s</string>
+    <string name="status_you">Lượt của bạn</string>
+    <string name="status_cpu">Máy đang nghĩ…</string>
+    <string name="status_win">%1$s thắng!</string>
+    <string name="status_draw">Hòa nhau!</string>
+    <string name="result_win_you">Bạn thắng!</string>
+    <string name="result_lose">Máy thắng!</string>
+    <string name="result_summary">%1$s %2$d · Hòa %3$d · %4$s %5$d</string>
+    <string name="new_round">Ván mới</string>
+    <string name="reset_all">Reset</string>
+    <string name="back_to_menu">Về menu</string>
+    <string name="toggle_theme">Đổi giao diện sáng/tối</string>
+    <string name="empty_cell">Ô trống</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hai mảng tròn mờ ở góc trên trái và dưới phải làm nền cho menu -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="200">
+    <path
+        android:fillAlpha="0.45"
+        android:fillColor="?attr/colorPrimaryContainer"
+        android:pathData="M0,10 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" />
+    <path
+        android:fillAlpha="0.45"
+        android:fillColor="?attr/colorPrimaryContainer"
+        android:pathData="M100,200 m-45,0 a45,40 0 1,0 90,0 a45,40 0 1,0 -90,0" />
+</vector>
